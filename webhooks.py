@@ -4,7 +4,7 @@ from flask_restful import Resource, Api
 import os
 
 buildBranch = 'main'
-buildPath = '/home/choijingyeong/lab-socket-programming/'
+buildPath = '/home/gyeongee113/lab-socket-programming/'
 
 buildCommand = 'cd ' + buildPath + ' && git stash && git pull origin ' + buildBranch
 
